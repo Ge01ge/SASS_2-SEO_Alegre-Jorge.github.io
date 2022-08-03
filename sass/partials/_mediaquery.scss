@@ -1,0 +1,24 @@
+/*------------------------- @media query>> galeria ------------------------------------*/
+
+@media screen and (max-width: 400px){
+    /*---------------------- Galeria --------------------------------*/
+    
+    .galeria--conteiner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .item_name {
+    font-size: 15px; 
+    color: white;   
+    }
+    .galeria--items:nth-child(1) {
+        grid-column-start: span 2;
+    }
+    .galeria--items:nth-child(6) {
+        grid-column-start: span 2;
+    }
+    .galeria--items:nth-child(8) {
+        grid-column-start: span 2;
+    }
+    /*---------------------- /Galeria --------------------------------*/
+}
+// @media screen and (min-widht:576px){}

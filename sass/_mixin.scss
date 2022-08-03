@@ -1,0 +1,21 @@
+@mixin text ( $t-justify, $f-St, $fontS) {
+    text-align: $t-justify;
+    font-style: $f-St;
+    font-size: $fontS;
+}
+//text-align: $t-center;
+//varios font: style y size;
+
+@mixin espaciado ( $w100, $pT-h2, $pB-h2, $mL-h) {
+    width: $w100;
+    padding-top: $pT-h2;
+    padding-bottom: $pB-h2;
+    margin-left: $mL-h;
+}
+
+@mixin flex ( $column, $t-center, $text-ai-C) {
+    display: flex;
+    flex-direction: $column;
+    justify-content: $t-center;
+    align-items: $text-ai-C;
+}

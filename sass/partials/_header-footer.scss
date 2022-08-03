@@ -1,0 +1,42 @@
+/* ---------------------------- header ------------------------------------ */
+li{
+    a{
+        font-size: 23px; 
+        margin-right: 10px;
+        &:hover{
+            background: $bg-h;
+        }
+    }
+}
+a{
+    &:link{
+        color: $secondary;
+        text-decoration: none;
+}
+    &:hover{
+        color: $bg-SubT;
+        border: solid 1px $bg-SubT;
+        text-decoration: none;
+}
+}
+
+.bg-1{
+    background: $bg-1;
+}
+
+/* ------------------------------- /-header ------------------------------------------- */
+/* ------------------------------- footer ------------------------------------------- */
+.footer{
+&_h3{
+    font-style:italic; 
+    text-align: center;
+}
+&_p{
+    font-size: 13px;
+}
+&_icon{
+    color: $secondary;
+}
+}
+
+/* ------------------------------- /-footer ------------------------------------------- */
